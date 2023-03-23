@@ -72,7 +72,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv)
   
     // fetch data from server
-    const response = await fetch("http://localhost:8000/chat",{
+    const response = await fetch("https://shuvo-artificial.onrender.com/chat",{
         method: "POST",
         headers:{
             "Content-type": "application/json"
